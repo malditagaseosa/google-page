@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Google</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!--
+      link rel="stylesheet" type="text/css" media="screen" href="main.css" /
+    -->
+    <style>
+      * {
+        margin: 0px;
+      }
+
+      html {
+        font-family: Arial, sans-serif;
+        color: rgba(0, 0, 0, 0.55);
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+      }
+
+      nav {
+        overflow: hidden;
+        margin-bottom: 6%;
+        margin-top: 15px;
+        padding-right: 14px;
+        font-size: 14px;
+      }
+
+      nav > ul > li {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0px;
+        padding-left: 0px;
+      }
+
+      ul li {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      #user-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 25px;
+      }
+
+      main {
+        margin-bottom: 6%;
+        flex: 1 0 auto;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+
+      .wrapper {
+        width: 50%;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #logo {
+        width: 272px;
+        height: 92px;
+        display: block;
+        margin-bottom: 15px;
+      }
+
+      #search-input {
+        width: 80%;
+        margin-bottom: 5%;
+        line-height: 34px;
+        border: 0.5px solid #e4e4e4;
+        padding: 0 2% 0 2%;
+        box-shadow: 0px 15px 10px -15px #e4e4e4;
+      }
+
+      button {
+        line-height: 34px;
+        background-color: #f2f2f2;
+        color: #5f6368;
+        border: none;
+      }
+
+      button:hover {
+        color: black;
+        border: 1px solid #e4e4e4;
+      }
+
+      footer {
+        flex-shrink: 0;
+        background: #f2f2f2;
+        border-top: 1px solid #e4e4e4;
+        padding: 1%;
+        color: #5f6368;
+      }
+
+      #foot-left-list > li {
+        padding-right: 27px;
+      }
+
+      #foot-right-list > li {
+        padding-left: 27px;
+      }
+
+      .f-left {
+        float: left;
+      }
+
+      .f-right {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul class="f-right">
+        <li>Gmail</li>
+        <li>Imagenes</li>
+        <li><i class="fas fa-th"></i></li>
+        <li><i class="fas fa-bell"></i></li>
+        <li>
+          <img
+            id="user-avatar"
+            src="https://lh4.googleusercontent.com/-ifIfDUPu8I4/AAAAAAAAAAI/AAAAAAAAAHA/6jIClCQqj1c/photo.jpg?sz=328"
+            alt="user image"
+          />
+        </li>
+      </ul>
+    </nav>
+    <main class="container">
+      <div class="wrapper">
+        <img
+          id="logo"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="Google image"
+        />
+        <input id="search-input" type="text" />
+        <ul>
+          <li><button>Buscar con Google</button></li>
+          <li><button>Me siento con suerte</button></li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <ul id="foot-left-list" class="f-left">
+        <li>Publicidad</li>
+        <li>Negocios</li>
+        <li>Acerca de</li>
+      </ul>
+      <ul id="foot-right-list" class="f-right">
+        <li>Privacidad</li>
+        <li>Condiciones</li>
+        <li>Preferencias</li>
+      </ul>
+    </footer>
+  </body>
+</html>
