@@ -1,9 +1,18 @@
-# google-page
+# Google Home Page
 The Odin Project HTML/CSS  Assignment\
 ( HTML/CSS practice )\
-TODO: Responsive fixes
-
 # Skills Learned
 HTML5\
 CSS3\
-FLexbox
+FLexbox\
+Layouts
+
+***
+
+# Pagina de inicio Google
+Actividad del curriculum The Odin Project - HTML/CSS
+# Habilidades trabajadas
+HTML5\
+CSS3\
+FLexbox\
+Layouts
